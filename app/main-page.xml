@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" loaded="loaded">
+    <StackLayout class="p-20">
+        <Label text="Picture analyser" class="h1 text-center"/>
+        <Button text="take a pic and analyse it" tap="analyse" class="btn btn-primary btn-active" />
+        <ActivityIndicator busy="{{isLoading}}" class="activity-indicator" height="500" width="60"  />
+    </StackLayout>
+</Page>
